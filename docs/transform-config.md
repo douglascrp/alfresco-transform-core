@@ -60,7 +60,7 @@ t-engine.
 * **transformers** is a list of transformer definitions. Each transformer
   definition should have a unique `transformerName`, specify a
   `supportedSourceAndTargetList` and indicate which options it supports.
-  In this case there is only one transformer called `Hello World` and it
+  In this case there is only one transformer called `helloWorld` and it
   accepts `helloWorldOptions`. A transformer may specify references to 0
   or more transformOptions.
 * **supportedSourceAndTargetList** is simply a list of source and target
